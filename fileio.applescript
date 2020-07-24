@@ -13,7 +13,7 @@ on run {input, parameters}
 		do shell script "/usr/bin/python3 /usr/local/bin/fileio.py '" & encode(finderSelList) & "'"
 		
 		
-		display notification "File was successfully uploaded to file.io" with title "Fie.io uploader" sound name "default"
+		display notification "File was successfully uploaded to file.io" with title "File.io uploader" sound name "default"
 		
 		
 	end if
